@@ -1,0 +1,3 @@
+python-telegram-bot
+git+git://github.com/google/chatbase-python.git
+requests
