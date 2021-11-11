@@ -1,0 +1,26 @@
+{
+    "name": "Text-Scanner-bot",
+    "description": "Telegram Bot to Extract Text from Image",
+    "repository": "https://github.com/ALBINPRAVEEN/Text-Scanner-bot",
+    "logo": "https://telegra.ph/file/f48ff733ca4d1621a4097.jpg",
+    "keywords": ["josprojects", "ocr", "Text Extractor", "Optical Character Recognition"],
+    "env":{
+        "BOT_TOKEN":{
+            "description":"Your Bot Token from @Botfather",
+            "required":"True"
+        },
+        "API_KEY":{
+            "description":"Your Api key from https://ocr.space/ocrapi",
+            "required":"True"
+        },
+        "GROUP":{
+            "description":"Your Group Username without '@'",
+            "required":"True"
+        },
+        "CHANNEL":{
+            "description":"Your Channel Username without '@'",
+            "required":"True"
+        }
+    }
+
+}
